@@ -1,7 +1,5 @@
 <h2>Details</h2>
 
-{{#each model as |item|}}
-    {{item.title}}:: {{item.type}} - {{item.field}}<br>
-{{/each}}
+{{render-fields fields=model.fields record=model.data}}
 
 {{outlet}}

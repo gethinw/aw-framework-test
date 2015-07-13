@@ -9,8 +9,8 @@ module.exports = function(app) {
                     "type": "detail-field",
                     "id": "1",
                     "attributes": {
-                        "type": "field",
-                        "field": "firstName",
+                        "type": "string",
+                        "field": "firstNaem",
                         "title": "First Name"
                     }
                 },
@@ -18,7 +18,7 @@ module.exports = function(app) {
                     "type": "detail-field",
                     "id": "2",
                     "attributes": {
-                        "type": "field",
+                        "type": "string",
                         "field": "lastName",
                         "title": "Last Name"
                     }
@@ -27,7 +27,7 @@ module.exports = function(app) {
                     "type": "detail-field",
                     "id": "3",
                     "attributes": {
-                        "type": "field",
+                        "type": "string",
                         "field": "street",
                         "title": "Street"
                     }
@@ -36,7 +36,7 @@ module.exports = function(app) {
                     "type": "detail-field",
                     "id": "4",
                     "attributes": {
-                        "type": "field",
+                        "type": "string",
                         "field": "city",
                         "title": "City"
                     }
@@ -45,9 +45,18 @@ module.exports = function(app) {
                     "type": "detail-field",
                     "id": "5",
                     "attributes": {
-                        "type": "field",
+                        "type": "option",
                         "field": "role",
                         "title": "Role"
+                    }
+                },
+                {
+                    "type": "detail-field",
+                    "id": "6",
+                    "attributes": {
+                        "type": "boolean",
+                        "field": "active",
+                        "title": "Is Active?"
                     }
                 }
             ]
