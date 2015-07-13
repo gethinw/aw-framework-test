@@ -1,6 +1,6 @@
 # AW Framework JS Test
 
-todo: intro
+Welcome to the AgilityWorks JS test! To get started, follow the instructions below, up to and including `Running / Development`.
 
 ## Prerequisites
 
